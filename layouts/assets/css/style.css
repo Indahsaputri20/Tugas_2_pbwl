@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color:#ffe0e5;
+}
+
+a {
+    text-decoration: none;
+}
+#bg-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-login{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color:#ffcdd5;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-login h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn-login{
+    padding: 8px 15px;
+    background-color:#99737a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn-login:hover {
+    background-color:#b3868e;
+}
+.input-control{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.input-data{
+    width: 80%;
+    box-sizing: border-box;
+}
+aside {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#ffcdd5;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brand {
+    width: 80px;
+}
+
+.user {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+main {
+    margin-left: 210px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin: 5px 0 5px 0;
+    display: block;
+    color: #000000;
+}
+
+nav a:hover {
+    background-color:#cc9aa2;
+}
+
+nav .icon {
+    width: 25px;
+    float: left;
+    padding-right: 10px;
+}
+
+.info {
+    background-color: #ffcdd5;
+    padding: 20px;
+    margin-top: 10px;
+}
+table {
+    margin: 15px 0;
+    border: 1px solid #eaf9f8;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+table th {
+    border: 1px solid #eaf9f8;
+    padding: 8px;
+    background-color: #e6adb7;
+}
+
+table tr td {
+    border: 1px solid #eaf9f8;
+    padding: 8px;
+    text-align: center;
+    background-color: #ffd3db;
+}
+
+.btn {
+    background-color: #e6adb7;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: #99737a;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 20px 0 20px 10px;
+    background-color: #ffcdd5;
+    width: 100%;
+    border-top: 1px solid #d8dadf;
+}
